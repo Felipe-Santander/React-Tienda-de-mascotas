@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Create React 
+# --------------------------------------------------------------------------------------
+# Integrantes del trabajo unidad 4 uso de react
+# Andres Felipe Villota Cabrera
+# link de GitHub ;    https://github.com/Felipe-Santander/React-Tienda-de-mascotas.git
+# --------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
