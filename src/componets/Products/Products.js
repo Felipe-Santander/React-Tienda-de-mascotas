@@ -3,7 +3,11 @@ import { DataContext } from "../Context/DataContext";
 import "./Products.css";
 
 const Products = () => {
-    const { data } = useContext(DataContext);
+    const { data, cart, setCart } = useContext(DataContext);
+    const buyProducts = (product) => {
+        console.log(product);
+        setCart([...cart, product]);
+    };
 
     return (
         <div className="products-container">
@@ -12,7 +16,7 @@ const Products = () => {
                     <img src={product.img} alt="img-product-card" />
                     <h3>{product.name}</h3>
                     <h4>{product.price}$</h4>
-                    <button>Comprar</button>
+                    <button onClick={()=>buyProducts(product)}>Comprar</button>
                 </div>
             ))}
         </div>
